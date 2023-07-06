@@ -1,0 +1,38 @@
+@media screen and (max-width: 769px) {
+    .small-screen {
+        display: none;
+    }
+
+    iframe {
+        height: 150%;
+    }
+}
+
+@media screen and (min-width: 770px ) and (max-width: 1200px) {
+    .big-screen {
+        display: none;
+    }
+
+    .seperate-map {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-column {
+        max-width: 100%;
+    }
+
+    .right-column {
+        max-width: 90%;
+        min-height: 400px;
+        padding-right: 0 !important;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .big-screen {
+        display: none;
+    }
+}
