@@ -3,9 +3,15 @@
         display: none;
     }
 
-    iframe {
+    #mapHome {
         height: 150%;
     }
+    #mapContact {
+        padding-left: 0;
+        padding-right: 0;
+        height: 40vw;
+    }
+
 }
 
 @media screen and (min-width: 770px ) and (max-width: 1200px) {
@@ -26,13 +32,31 @@
     .right-column {
         max-width: 90%;
         min-height: 400px;
-        padding-right: 0 !important;
         padding-top: 50px;
     }
+
+    #rightColumnHome {
+        padding-right: 0 !important;
+    }
+
+    #mapContact {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        height: 30vw;
+        padding-bottom: 30px;
+    }
+
 }
 
 @media screen and (min-width: 1201px) {
     .big-screen {
         display: none;
+    }
+
+}
+
+@media screen and (max-width: 664px) {
+    #mapContact {
+        height: 60vw;
     }
 }

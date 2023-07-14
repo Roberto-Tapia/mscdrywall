@@ -120,25 +120,44 @@
 
         <section class=" tm-section-mb" id="tm-section-2">
             <div class="row seperate-map" style="justify-content: space-around;">
+
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5 right-column" style="padding-left: 0px; padding-right: 0px; width: 95%;" >
+                    <iframe id="mapHome" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13352.93784630858!2d-117.305681!3d33.207949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc710e62682f8d%3A0x408476cc370deb99!2s3532%20Seagate%20Way%2C%20Oceanside%2C%20CA%2092056!5e0!3m2!1sen!2sus!4v1688618380065!5m2!1sen!2sus" height="100%" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div> -->
                 
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pl-md-5 pr-sm-5 left-column" style="padding-left: 0px; padding-right: 0px; width: 95%;" >
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13352.93784630858!2d-117.305681!3d33.207949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc710e62682f8d%3A0x408476cc370deb99!2s3532%20Seagate%20Way%2C%20Oceanside%2C%20CA%2092056!5e0!3m2!1sen!2sus!4v1688618380065!5m2!1sen!2sus" height="100%" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-0 pl-md-0 pr-sm-3 pl-sm-3 pl-3 pr-3 left-column" style="padding-left: 0px; padding-right: 0px; width: 100%;" id="contactMapContainer">
+                    <iframe id="mapContact" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13352.93784630858!2d-117.305681!3d33.207949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc710e62682f8d%3A0x408476cc370deb99!2s3532%20Seagate%20Way%2C%20Oceanside%2C%20CA%2092056!5e0!3m2!1sen!2sus!4v1688618380065!5m2!1sen!2sus" height="100%" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
 
-                <div class="col-md-6 tm-mb-sm-4 tm-2col-l right-column">
-                    <div class="tm-box-3">
-                        <h2>​MSC Commercial & Residential Drywall and Metal Framing</h2>
-                        <p style="border-bottom: 2px solid black; color: rgba(28, 28, 176, 0.829)"> License No. 815789</p>
-                        <p> MSC Drywall is a California Based Commercial and Residential Company  that has been building extraordinary structures for nearly 18 years. Our quality workmanship has earned us a reputation as one of the # 1 contractors in San Diego County. We specialize in ground-up Commercial Buildings, Interior and Exterior Metal Stud Framing, New Tenant Improvements, add-ons and remodeling.</p>
-                        <div class="text-center">
-                            <a href="#tm-section-5" class="btn btn-big">Details</a>
+                <div class="col-md-6 tm-mb-sm-4 tm-2col-l right-column mr-3 ml-3" style="background-color: white; padding: 30px 15px;">
+                    <div>
+                        <div class="contact_message">
+                            <h3 style="text-align: center; color: rgb(17, 82, 136); font-weight: bold; padding-bottom: 10px; border-bottom: 1.5px solid black">Message Us</h3>
+                            <form action="" method="post" class="contact-form" style="padding-top: 10px;" id="contactForm">
+                                <div class="row mb-2">
+                                    <div class="form-group col-xl-6">
+                                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
+                                    </div>
+                                    <div class="form-group col-xl-6 pl-xl-1">
+                                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn  tm-btn-submit float-right btn-big">Send It Now</button>
+                            </form>
                         </div>
                     </div>
                 </div>
 
+
             </div>
         </section>
+
+        
 
 
 
@@ -203,15 +222,39 @@
                     </div>
                 </div> -->
 
-                <div class="col-lg-5 col-md-5 col-xs-12 tm-contact-right">
+                <div class="pr-5 pl-5">
                     <div class="tm-address-box">
-                        <h2 class="mb-4" style="color: rgba(28, 28, 176, 0.829);">Contact Us</h2>
-                        <p class="mb-5">Integer pretium volutpat tempor. Maecenas condimentum tincidunt leo. Paesent scelerisque erat placerat tempus laoreet. Vivamus pellentesque tempor congue.</p>
-                        <address>
-                            120-240 Proin mauris enim,
-                            <br> dignissim sit amet ligula id,
-                            <br> finibus tempus erat 10200
-                        </address>
+                        <h2 class="mb-4" style="color: rgba(39, 39, 44, 0.882); font-size: 1rem;">Privacy Notice</h2>
+                        <p class="mb-5" style="font-size: .75rem;">This privacy notice discloses the privacy practices for MSC Drywall. This privacy notice applies solely to information collected by this web site. It will notify you of the following:
+                            <br>
+                            What personally identifiable information is collected from you through the web site, how it is used and with whom it may be shared.
+                            What choices are available to you regarding the use of your data.
+                            The security procedures in place to protect the misuse of your information.
+                            How you can correct any inaccuracies in the information.
+                            <br>
+                            Information Collection, Use, and Sharing
+                            We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.
+                            <br>
+                            We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.
+                            <br>
+                            Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.
+                            <br>
+                            Your Access to and Control Over Information
+                            You may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address or phone number given on our website:
+                            <br>
+                            See what data we have about you, if any.
+                            Change/correct any data we have about you.
+                            Have us delete any data we have about you.
+                            Express any concern you have about our use of your data.
+                            <br>
+                            Security
+                            We take precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline.
+                            <br>
+                            Wherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a closed lock icon at the bottom of your web browser, or looking for "https" at the beginning of the address of the web page.
+                            <br>
+                            While we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers/servers in which we store personally identifiable information are kept in a secure environment.
+                            <br>
+                            If you feel that we are not abiding by this privacy policy, you should contact us immediately via telephone at 760-598-1284 or via email at miguel@mscdrywall.com</p>
                     </div>
                 </div>
             </div>
