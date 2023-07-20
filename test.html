@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+<body>
+
+<div class="slider">
+        <div style= "background-color: red; text-align: center;">1</div>
+        <div style= "background-color: rgb(0, 34, 255); text-align: center;">2</div>
+        <div style= "background-color: rgb(42, 79, 48); text-align: center;">3</div>
+        <div style= "background-color: rgb(255, 0, 212); text-align: center;">4</div>
+        <div style= "background-color: rgb(246, 255, 0); text-align: center;">5</div>
+        <div style= "background-color: rgb(40, 204, 193); text-align: center;">6</div>
+        <div style= "background-color: rgb(0, 255, 60); text-align: center;">7</div>
+        <div style= "background-color: rgb(255, 128, 0); text-align: center;">8</div>
+        <div style= "background-color: rgb(73, 15, 81); text-align: center;">9</div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slider').slick({
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 3,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
+          ]
+        });
+    </script>
+  
+</body>
+</html>
