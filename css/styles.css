@@ -60,3 +60,37 @@
         height: 60vw;
     }
 }
+
+.slider {
+    width: 600px;
+    /* height: 400px; */
+    margin: 0 auto;
+    padding:3px;
+    background-color: white;
+}
+
+.item {
+    /* width: 600px;  <img> only respects the boundaries of it's parent container. that mean you have to set again a height and width */ 
+    width: 100%;
+    height: 400px;
+}
+
+.item > img {
+    /* max height combined with object-fit: cover brings about the desired result of croping the image without distorting the dimensions */
+    max-height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+/* individual slider stylings */
+
+.sliderStyles * {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.sliderStyles span {
+    font-size: .8em;
+}
